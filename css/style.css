@@ -79,3 +79,7 @@ a, a:hover {
   width: 450px;
   clear: both;
 }
+
+.fld:hover {
+  background-color: #94e0f7
+}

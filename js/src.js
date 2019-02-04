@@ -7,7 +7,9 @@ $(document).ready(function() {
 	});
 
 	$("#fldLeft, #fldMiddleT, #fldRight, #fldMiddleB").hover(function() {
-		$(this).css("background-color", "#94e0f7");
+		if ($(window).width() > 1000) { 
+			$(this).css("background-color", "#94e0f7");
+		}
 	}, function() {
 		$(this).css("background-color", "#fff");
 	});
