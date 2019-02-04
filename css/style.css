@@ -77,4 +77,5 @@ a, a:hover {
 .annoucement  {
   margin : auto;
   width: 450px;
+  clear: both;
 }
